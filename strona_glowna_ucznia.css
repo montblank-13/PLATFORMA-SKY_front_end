@@ -1,0 +1,189 @@
+
+                body {
+
+                        font-family: 'Montserrat', sans-serif;
+                        padding: 0;
+                        margin: 0 auto;
+                        background-color: #CCCCCC;
+                        max-width: 1000px;
+
+                    }
+
+                .menu {
+                    
+                    background-color: whitesmoke;
+                    width: 100%;
+                    min-height: 40px;
+                    float:left;
+                    overflow: hidden;
+                    position: relative;
+                }
+
+                .menu #hamburger {
+
+                    display: none;
+
+                }
+
+                .menu a {
+
+                    color:black;
+                    display: block;
+                    padding: 8px 25px 8px 25px;
+                    font-size: 15px;
+                    text-decoration: none;
+
+                }
+
+                .menu a.bars {
+                    
+                    border-left: 1px solid black;
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .menuLogo {
+
+                    background-color: gold;
+
+                }
+
+                #logo {
+
+                    width: 24px;
+                    height: 24px;
+                }
+                
+                #pasekNews {
+                    
+                    width: 100%;
+                    background-color: #EA4642;
+                    padding: 10px 30px;
+                    float:left;
+                    box-sizing: border-box;
+                    
+                }
+                
+                #tekstNews {
+                    
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    
+                }
+
+                #nawigacjaLekcji{
+
+                    margin: 0 15;
+
+                }
+                
+
+                #chat {
+                    
+                    width: 100%;
+                    border: 2px solid black;
+                    border-radius: 5px;
+                    float:left;
+                    height: 300px;
+                    box-sizing: border-box;
+                    background-color: ghostwhite;
+                    margin-top: 15px;
+
+                }
+
+                #tytulChat {
+    
+                }
+
+                #dolneMenu {
+
+                    top: 15px;
+                    position: relative;
+                
+                }
+
+                #zadanieDomowe {
+
+                    float: left;
+
+                }
+
+                #ostatniaLekcja {
+
+                    float: left;
+
+                }
+
+                #wszystkieLekcje {
+
+                    float: left;
+
+                }
+
+                #dotychczasoweLekcje {
+
+                    float: left;
+
+                }
+    
+
+                .dolnyPasekObraz {
+
+                    height: 24px;
+                    width: auto;
+                    margin-top: 10px;
+                    float:left;
+                    margin-right: 20px;
+
+                }
+
+                .dolnyPasek {
+                    
+                    background-color: #00A4FF;
+                    height: 50px;
+                    color:white;
+                    font-size: 12px;
+                    font-weight: bold;
+                    border-bottom: 2px solid white;
+                    padding: 0 0 0 20;
+                    width: 100%;
+                    box-sizing: border-box;
+                    float:left;
+
+                }       
+
+                .dolnyPasekTekst { 
+
+                    top: 20px;
+                    position: relative;
+
+                }
+                
+                
+                .przyciskZwykly {
+                    
+                    padding: 15 0;
+                    background-color: #F3BC2F;
+                    text-align: center;
+                    border-radius: 5px;
+                    width: 100%;
+                    font-weight: bold;
+                    box-sizing: border-box;
+                    border: 1px solid black;
+                    margin-top: 10px;
+                }
+                
+                .przyciskPierwszy {
+                    
+                    float:left;
+                }
+                
+                .przyciskDrugi {
+                    
+                    float:right;
+                }
+                
+                 

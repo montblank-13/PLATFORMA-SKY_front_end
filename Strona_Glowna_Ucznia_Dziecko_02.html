@@ -1,0 +1,115 @@
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="strona_glowna_ucznia_dziecko.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+        
+            <title>Strona Główna Ucznia</title>
+    </head>
+    
+    <body>
+     
+        <div class="menu"> 
+            
+            <a href="https://www.w3schools.com/" class="menuLogo">
+                <img id="logo" src="Obrazy/sygnet.png">
+            </a>
+            
+            <div id="hamburger">
+                <a href="#wiadomosci">Wiadomości</a>
+                <a href="#plan">Plan</a>
+                <a href="#profil">Profil</a>
+                <a href="#kontakt">Kontakt</a>
+              </div>
+            
+              <a href="javascript:void(0);" class="bars" onclick="myFunction()">
+
+                    <img src="IKONY/IKONY_strona_glowna/bars_white.png" style="height:24px;">
+                
+            </a>
+        </div>
+        
+        <div id="pasekNews">
+        
+        <p id="tekstNews">Tutaj będzie wyświetlany pojedynczy ważny news</p>
+            
+        </div>           
+                
+        <div class="topBox">
+        
+            <div class="nextClass">
+            
+                Następna lekcja
+            
+            </div>
+            
+        </div>
+            
+        <div class="topBox">
+            
+            <div id="currentProject">
+            
+                Trwający projekt + data finału
+            
+            </div>
+            
+        </div>
+                    
+        <div id="chat">
+        
+            <div id="tytulChat">
+                
+                Chat
+                            
+            </div>
+        
+        </div>
+        
+            <div class="Pasek">
+
+                 <div id="zadanieDomowe">
+
+                     <img class="dolnyPasekObraz" src="IKONY/IKONY_strona_glowna/home.png"> 
+
+                     <span class="dolnyPasekTekst">Wyzwanie domowe</span>
+
+                </div>
+
+
+            </div>
+
+            <div class="pasek">
+
+                    <div id="ostatniaLekcja">
+
+                        <img class="dolnyPasekObraz" src="IKONY/IKONY_strona_glowna/last_class.png"> 
+
+                        <span class="dolnyPasekTekst">Ostatnia lekcja</span>
+
+                    </div>
+
+            </div> 
+
+            
+            
+       
+            
+        <script>
+            function myFunction() {
+              var x = document.getElementById("hamburger");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>    
+        
+    </body>
+        
+</html>
