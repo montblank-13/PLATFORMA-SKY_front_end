@@ -27,7 +27,7 @@
                 <a href="#kontakt">Kontakt</a>
               </div>
             
-              <a href="javascript:void(0);" class="bars" onclick="myFunction()">
+              <a class="bars" onclick="myFunction()">
 
                     <img src="IKONY/IKONY_strona_glowna/bars_white.png" style="height:24px;">
                 
@@ -70,13 +70,13 @@
         
         </div>
         
-            <div class="pasek">
+            <div class="pasek" onclick="homework()">
                 
                 <!-- Elementy rozwijają po nacisnięciu w ten div -->
 
                  <div id="zadanieDomowe">
 
-                     <img class="dolnyPasekObraz" src="IKONY/IKONY_strona_glowna/home.png"> 
+                     <img class="dolnyPasekObraz" src="IKONY/IKONY_strona_glowna/home_white.png"> 
 
                      <span class="dolnyPasekTekst">Wyzwanie domowe</span>
 
@@ -85,19 +85,21 @@
 
             </div>
         
-            <div class="sumUp">
+            <div id="homeworkDrop">
         
-            <p id="sumUpHomework">Tutaj będzie wyświetlany tekst zadania domowego</p>
+                <div class="sumUp">
+
+                    <p id="sumUpHomework">Tutaj będzie wyświetlany tekst zadania domowego</p>
+
+                </div>
         
             </div>
 
-            <div class="pasek">
-                
-                <!-- Elementy rozwijają po nacisnięciu w ten div -->
+            <div class="pasek" onclick="lastClass()">
 
                     <div id="ostatniaLekcja">
 
-                        <img class="dolnyPasekObraz" src="IKONY/IKONY_strona_glowna/last_class.png"> 
+                        <img class="dolnyPasekObraz" src="IKONY/IKONY_strona_glowna/last_class_white.png"> 
 
                         <span class="dolnyPasekTekst">Ostatnia lekcja</span>
 
@@ -105,33 +107,55 @@
 
             </div>
         
-            <div class="sumUp">
+            <div id="lastClassDrop">
         
-            <p class="sumUpClass">Temat ostatniej lekcji</p>
+                <div class="sumUp">
+
+                    <p class="sumUpClass">Temat ostatniej lekcji</p>
+
+                </div>
+
+                <div class="sumUp">
+
+                    <p class="sumUpClass">Słownictwo</p>
+
+                </div>
+
+                <div class="sumUp">
+
+                    <p class="sumUpClass">Gramatyka</p>
+
+                </div>
+
+                <div class="sumUp">
+
+                    <p class="sumUpClass">Materiały</p>
+                    
+                </div>
                 
-            </div>
-                
-            <div class="sumUp">
-                
-            <p class="sumUpClass">Słownictwo</p>
-                
-            </div>
-                
-            <div class="sumUp">
-                
-            <p class="sumUpClass">Gramatyka</p>
-        
-            </div>
-        
-            <div class="sumUp">
-                
-            <p class="sumUpClass">Materiały</p>
-        
             </div>
             
         <script>
             function myFunction() {
               var x = document.getElementById("hamburger");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            
+            function lastClass() {
+              var x = document.getElementById("lastClassDrop");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            
+            function homework() {
+              var x = document.getElementById("homeworkDrop");
               if (x.style.display === "block") {
                 x.style.display = "none";
               } else {

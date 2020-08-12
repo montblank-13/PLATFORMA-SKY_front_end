@@ -36,15 +36,23 @@
                     position: relative;
 
                 }
-
-                #dotychczasoweLekcje {
-
-                    float: left;
-
-                }
                 
                 #hamburger a:hover {
+                    
                     background-color: #dbdbdd;
+                    
+                }
+
+                #homeworkDrop {
+
+                    display: none;
+
+                }
+
+                #lastClassDrop {
+
+                    display: none;
+
                 }
 
                 #logo {
@@ -82,6 +90,7 @@
                     position: absolute;
                     right: 0;
                     top: 0;
+                    cursor: pointer;
                 }
 
                 .menu #hamburger {
@@ -98,24 +107,25 @@
 
                 .Pasek {
                     
-                    background-color: #fff;
-                    height: 50px;
-                    color: #051B23;
+                    background-color: #3383ff;
+                    min-height: 50px;
+                    color: white;
                     font-size: 12px;
                     font-weight: bold;
-                    border-bottom: 1px solid #051B23;
                     padding: 0 0 0 20;
                     width: 100%;
                     box-sizing: border-box;
                     float:left;
+                    cursor: pointer;
+                    border-bottom: 1px solid white;
 
                 }       
 
                 #pasekNews {
                     
                     width: 100%;
-                    background-color: #00A4FF;
-                    padding: 10px 30px;
+                    background-color: #ff0025;
+                    padding: 10px 10px 10px 30px;
                     float:left;
                     box-sizing: border-box;
                     
@@ -126,14 +136,13 @@
                     width: 100%;
                     float:left;
                     box-sizing: border-box;
-                    background-color: #fff;
-                    height: 50px;
+                    background-color: #e8f0ff;
                     color: #051B23;
                     font-size: 12px;
                     font-weight: bold;
-                    border-bottom: 1px solid #051B23;
                     padding: 5 0 0 20;
                     text-transform: uppercase;
+                    border-bottom: 1px solid white;
                     
     
                 }
@@ -150,17 +159,16 @@
 
                 .topBox {
 
-                    background-color: #fff;
-                    height: 42px;
+                    background-color: #ffe7ea;
                     color: #051B23;
                     font-size: 12px;
                     font-weight: bold;
-                    border-bottom: 1px solid #051B23;
                     width: 100%;
                     box-sizing: border-box;
                     float:left;
-                    padding: 15 30 15 30;
+                    padding: 15 10 15 30;
                     font-weight: 900;
+                    border-bottom: 1px solid white;
     
                 }
 
