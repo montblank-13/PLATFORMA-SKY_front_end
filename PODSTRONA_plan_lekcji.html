@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="strona_glowna_nauczyciel_dziecko.css">
+        <link rel="stylesheet" type="text/css" href="PODSTRONA_plan_lekcji.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         
         
@@ -22,68 +22,48 @@
             
             <div id="hamburger">
                 <a href="#ostatniaLekcja">Ostatnia Lekcja</a>
+                <a href="#wiadomosci">Wiadomości</a>
                 <a href="#plan">Plan</a>
                 <a href="#profil">Zmiana hasła</a>
                 <a href="#logOut">Wyloguj się</a>
               </div>
             
-              <a href="javascript:void(0);" class="bars" onclick="myFunction()">
+              <a class="bars" onclick="myFunction()">
 
                     <img src="IKONY/IKONY_strona_glowna/bars_white.png" style="height:24px;">
                 
             </a>
-        </div>   
-            
-        <div class="topBoxProject">
-            
-            <div id="currentProject">
-            
-                Trwający projekt + data finału
-            
-            </div>
-            
-        </div>
-                  
-                
-        <div class="topBox">
-        
-            <div class="nextClass">
-            
-                Następna lekcja
-            
-            </div>
-            
         </div>
         
-        <div id="chat">
+        <div id="planPadding">
         
-            <div id="tytulChat">
-                
-                Chat
-                            
+        <div class="plan">
+            
+            <div id="planTitle">
+            
+            <p>Plan lekcji</p>
+            
             </div>
         
         </div>
             
-                <div class="input">
-
-                         <form>
-
-                         <p class="inputBox"><input type="text" placeholder="Temat lekcji"> </p>                 
-
-                         <p class="inputBox"><input type="text" placeholder="Wyzwanie domowe"> </p>
-
-                         <p class="inputBox"><input type="text" placeholder="Słownictwo"> </p>
-
-                         <p class="inputBox"><input type="text" placeholder="Gramatyka"> </p>
-
-                         <p class="inputBox"><input type="text" placeholder="Materiały"> </p>
-                             
-                         <input type="submit" value="Potwierdź">
-
-                         </form>
-
-                </div>
+        </div>
+        
+        <div class="lastClassPadding">
+        
+        <div class="lastClassBox">
+            
+            <img class="lastClassArrow" src="IKONY/IKONY_kalendarz/arrow_left_white.png">
+        
+            <div id="lastClassText">
+            
+                <p>Ostatnia lekcja</p>
+            
+            </div>
+        
+        </div>
+            
+        </div>
             
         <script>
             function myFunction() {
@@ -94,6 +74,7 @@
                 x.style.display = "block";
               }
             }
+            
         </script>    
         
     </body>
